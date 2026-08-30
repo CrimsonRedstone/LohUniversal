@@ -1,0 +1,4 @@
+SUCCESS
+time=30/08/2026  4:08:05.34
+log=C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\logs\build-20260830-040513.log
+artefacts=C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts

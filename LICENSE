@@ -1,0 +1,41 @@
+Лох Universal (Loh Universal)
+Copyright (C) 2026 Crimson Redstone
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+------------------------------------------------------------------------
+Attribution and trademarks
+
+Inspired by the historical category of 1960s transistor combo organs
+(top-octave divide-down instruments). This software is an independent
+original work. It is not affiliated with, endorsed by, or connected to
+Korg Inc., Vox Amplification Ltd., Jennings Musical Industries,
+Hammond/Suzuki, Arturia, Steinberg Media Technologies, or any other
+manufacturer. Those names are trademarks of their respective owners
+and are used here only to state that this project is unrelated to them.
+
+The public product name is «Лох Universal» / «Loh Universal».
+
+The JUCE framework is used under the GNU GPL v3
+(https://juce.com / https://github.com/juce-framework/JUCE).
+
+CLAP wrapping, when enabled, uses clap-juce-extensions (MIT)
+https://github.com/free-audio/clap-juce-extensions
+
+ASIO is a trademark of Steinberg Media Technologies GmbH. This project
+does not redistribute the Steinberg ASIO SDK; JUCE 9 may bundle ASIO
+headers under Steinberg’s terms for host applications.
+
+Freeware. If you'd like to support development, consider purchasing
+music at https://crimsonredstone.bandcamp.com/

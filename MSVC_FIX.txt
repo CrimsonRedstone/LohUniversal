@@ -1,0 +1,28 @@
+MSVC compile fix (29 Aug 2026)
+================================
+Replace these files in your existing LohUniversal folder, then re-run build.bat.
+Do NOT delete the build\ folder — JUCE is already downloaded.
+
+  Source\FX\Overdrive.h
+  Source\PluginEditor.cpp
+  Source\Parameters\FactoryPresets.h
+  CMakeLists.txt
+
+What broke
+----------
+1. Overdrive.h  AC30Cabinet
+   JUCE's IIR Filter::coefficients is a ReferenceCountedObjectPtr.
+   MSVC refuses  *f.coefficients = makePeakFilter(...)
+   because the right-hand side is a pointer, not a Coefficients object.
+   Fix:  f.coefficients = makePeakFilter(...)
+
+2. PluginEditor.cpp  computerKeyToNote
+   juce_wchar is inside namespace juce. With /permissive- it is not a
+   global type, so MSVC treated the next identifier as undeclared.
+   Fix: use int and a plain C array.
+
+3. FactoryPresets.h
+   AudioParameterInt::convertTo0to1 takes float — added a cast.
+
+4. CMakeLists.txt
+   NOMINMAX + WIN32_LEAN_AND_MEAN so windows.h cannot #define min/max.

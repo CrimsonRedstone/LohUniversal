@@ -1,0 +1,217 @@
+===============================================================
+  Loh Universal  /  Лох Universal
+  Crimson Redstone  ·  freeware
+  Started: 30/08/2026  4:05:13.03
+  Folder : C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal
+  Log    : C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\logs\build-20260830-040513.log
+===============================================================
+ECHO is off.
+[1/5] Checking tools...
+  cmake version 4.4.3
+  git:
+  git version 2.45.1.windows.1
+ECHO is off.
+  Compiler / generator probe:
+  cl.exe not on PATH (normal if you did not open an x64 Native Tools prompt).
+  CMake will try the Visual Studio generator instead.
+ECHO is off.
+[2/5] Configuring CMake (this downloads JUCE 9.0.1 on the first run, ~a few minutes)...
+-- The C compiler identification is MSVC 19.44.35221.0
+-- The CXX compiler identification is MSVC 19.44.35221.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Testing juceaide
+-- Finished setting up juceaide
+-- Building CLAP with CLAP_CXX_STANDARD=17
+-- CLAP version: 1.2.7
+-- Creating CLAP LohUniversal_CLAP from LohUniversal
+-- Setting Misbehaviour handler level to 'Ignore'
+-- Setting Checking handler level to 'Minimal'
+-- Setting event resolution to 0 samples (no sample-accurate automation)
+-- Setting "Always split block" to OFF
+-- Setting "Use JUCE parameter ranges" to OFF
+-- Copy After Build
+-- Configuring done (49.3s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build
+  Configured with Visual Studio 17 2022 x64.
+ECHO is off.
+[3/5] Compiling Release (go make tea — first build is long because it compiles JUCE too)...
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  Checking File Globs
+  1>Checking Build System
+  Generating juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData1.cpp, juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData2.cpp, juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData3.cpp, juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData4.cpp, juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData5.cpp, juce_binarydata_LohUniversalFonts/JuceLibraryCode/BinaryData.h
+  Generating LohUniversal_artefacts/JuceLibraryCode/LohUniversal_resources.rc
+  Building VST3 manifest helper for LohUniversal
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  BinaryData1.cpp
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/_deps/clap-juce-extensions-src/CMakeLists.txt
+  LohUniversal_rc_lib.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_rc_lib.dir\Release\LohUniversal_rc_lib.lib
+  clap-juce-extensions.cpp
+  BinaryData2.cpp
+  BinaryData3.cpp
+  clap_juce_extensions.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\_deps\clap-juce-extensions-build\Release\clap_juce_extensions.lib
+  BinaryData4.cpp
+  -- The CXX compiler identification is MSVC 19.44.35221.0
+  -- Detecting CXX compiler ABI info
+  BinaryData5.cpp
+  Generating Code...
+  LohUniversalFonts.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\Release\LohUniversalFonts.lib
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done (1.6s)
+  Main.cpp
+  PluginProcessor.cpp
+  PluginEditor.cpp
+  ParameterLayout.cpp
+  TopOctaveOscillator.cpp
+  FrequencyDivider.cpp
+  VoicingFilters.cpp
+  VibratoLFO.cpp
+  PercussionEngine.cpp
+  KeyNoiseGenerator.cpp
+  OrganVoiceManager.cpp
+  LeslieRotarySpeaker.cpp
+  VintageVoxLookAndFeel.cpp
+  DrawbarComponent.cpp
+  ReverseKeybedComponent.cpp
+  RockerSwitchComponent.cpp
+  TrimPotComponent.cpp
+  MainPanelView.cpp
+  OpenLidView.cpp
+  FXRackView.cpp
+  EQView.cpp
+  juce_audio_processors.cpp
+  juce_gui_extra.cpp
+  juce_gui_basics.cpp
+  -- Generating done (0.1s)
+  -- Build files have been written to: C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/vst3_helpers/LohUniversal
+  MSBuild version 17.14.23+b0019275e for .NET Framework
+  
+  juce_gui_basics_2.cpp
+    1>Checking Build System
+    Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/_deps/juce-src/extras/Build/CMake/juce_vst3_helper/CMakeLists.txt
+  juce_gui_basics_3.cpp
+  juce_gui_basics_4.cpp
+  juce_gui_basics_5.cpp
+    juce_VST3ManifestHelper.cpp
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\_deps\juce-src\modules\juce_gui_basics\juce_gui_basics.cpp(61): warning : This version of JUCE does not use the splash screen, the flag JUCE_DISPLAY_SPLASH_SCREEN is ignored [C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal.vcxproj]
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\Source\PluginEditor.cpp(182,16): warning C4458: declaration of 'flags' hides class member [C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal.vcxproj]
+      C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\_deps\juce-src\modules\juce_gui_basics\components\juce_Component.h(2709,24):
+      see declaration of 'juce::Component::flags'
+  
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\Source\PluginEditor.cpp(199,16): warning C4458: declaration of 'flags' hides class member [C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal.vcxproj]
+      C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\_deps\juce-src\modules\juce_gui_basics\components\juce_Component.h(2709,24):
+      see declaration of 'juce::Component::flags'
+  
+  juce_graphics.cpp
+  juce_graphics_Harfbuzz.cpp
+  juce_events.cpp
+  juce_core.cpp
+  juce_core_CompilationTime.cpp
+  juce_data_structures.cpp
+  juce_audio_processors_headless.cpp
+  juce_audio_processors_headless_ara.cpp
+  juce_audio_processors_headless_lv2_libs.cpp
+  juce_audio_basics.cpp
+  juce_audio_utils.cpp
+  juce_audio_formats.cpp
+  juce_audio_devices.cpp
+  juce_dsp.cpp
+    vst3_helper.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\vst3_helpers\LohUniversal\vst3_helper.exe
+    Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/_deps/juce-src/extras/Build/CMake/juce_vst3_helper/CMakeLists.txt
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  juce_graphics_Sheenbidi.c
+  juce_graphics_libjpg_1.c
+  juce_graphics_libjpg_2.c
+  juce_graphics_libjpg_3.c
+  juce_graphics_libpng.c
+  juce_graphics_lunasvg.c
+  juce_core_zlib.c
+  juce_audio_formats_flac_1.c
+  juce_audio_formats_flac_2.c
+  LohUniversal.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\Loh Universal_SharedCode.lib
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  clap-juce-wrapper.cpp
+  juce_audio_plugin_client_AAX.cpp
+  juce_audio_plugin_client_AAX_utils.cpp
+  juce_audio_plugin_client_ARA.cpp
+  juce_audio_plugin_client_LV2.cpp
+  juce_audio_plugin_client_Standalone.cpp
+  juce_audio_plugin_client_Unity.cpp
+  juce_audio_plugin_client_VST2.cpp
+  juce_audio_plugin_client_VST3.cpp
+     Creating library C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/LohUniversal_artefacts/Release/CLAP/Loh Universal.lib and object C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/LohUniversal_artefacts/Release/CLAP/Loh Universal.exp
+  Generating code
+     Creating library C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/LohUniversal_artefacts/Release/VST3/Loh Universal.lib and object C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/LohUniversal_artefacts/Release/VST3/Loh Universal.exp
+  Generating code
+  Finished generating code
+  LohUniversal_CLAP.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\CLAP\Loh Universal.clap
+  Finished generating code
+  LohUniversal_VST3.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents\x86_64-win\Loh Universal.vst3
+  removing moduleinfo.json
+  creating C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/build/LohUniversal_artefacts/Release/VST3/Loh Universal.vst3/Contents/Resources/moduleinfo.json
+  -- Destination C:\Program Files\Common Files/VST3/Loh Universal.vst3 exists, overwriting
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Contents
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Contents/Resources
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Contents/Resources/moduleinfo.json
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Contents/x86_64-win
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Contents/x86_64-win/Loh Universal.vst3
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/desktop.ini
+  -- Installing: C:\Program Files\Common Files/VST3/Loh Universal.vst3/Plugin.ico
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+  juce_audio_plugin_client_AAX.cpp
+  juce_audio_plugin_client_AAX_utils.cpp
+  juce_audio_plugin_client_ARA.cpp
+  juce_audio_plugin_client_LV2.cpp
+  juce_audio_plugin_client_Standalone.cpp
+  juce_audio_plugin_client_Unity.cpp
+  juce_audio_plugin_client_VST2.cpp
+  juce_audio_plugin_client_VST3.cpp
+  Generating code
+  Finished generating code
+  LohUniversal_Standalone.vcxproj -> C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\Standalone\Loh Universal.exe
+  Building Custom Rule C:/Users/Crimson/Downloads/LohUniversal/V4/LohUniversal/CMakeLists.txt
+ECHO is off.
+[4/5] Locating plugin files...
+  Artefacts: C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\CLAP
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\Loh Universal_SharedCode.lib
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\Standalone
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\CLAP\Loh Universal.clap
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\CLAP\Loh Universal.exp
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\CLAP\Loh Universal.lib
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\Standalone\Loh Universal.exe
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.exp
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.lib
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Plugin.ico
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents\Resources
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents\x86_64-win
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents\Resources\moduleinfo.json
+C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build\LohUniversal_artefacts\Release\VST3\Loh Universal.vst3\Contents\x86_64-win\Loh Universal.vst3
+ECHO is off.
+[5/5] SUCCESS
+  Copy the .vst3 folder to:  C:\Program Files\Common Files\VST3
+  Standalone .exe is next to it under Standalone\
+  Full log also saved as: C:\Users\Crimson\Downloads\LohUniversal\V4\LohUniversal\build.log
+===============================================================
